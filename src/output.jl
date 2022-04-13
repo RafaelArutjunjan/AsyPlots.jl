@@ -104,7 +104,7 @@ function save(P::Union{Plot2D,Plot3D},
     save(filename, P; kwargs...)
 end
 
-_SHOW_PLOTS = true
+_SHOW_PLOTS = false
 function showplots(b::Bool)
     global _SHOW_PLOTS
     _SHOW_PLOTS = b
